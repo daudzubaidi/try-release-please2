@@ -21,7 +21,7 @@ jobs:
         uses: google-github-actions/release-please-action@v4
         with:
           release-type: node
-          prerelease: false
+          prerelease: true
 
       - name: Get Data from PR Release Please
         id: get-pr-data
@@ -59,13 +59,3 @@ jobs:
           else
             echo "PR title does not indicate a release, skipping package.json update."
           fi
-
-      - name: Commit and Push Changes
-        if: env.NEW_VERSION != ''
-        run: |
-          NEW_VERSION=${{ env.NEW_VERSION }}
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add package.json
-          git commit -m "chore: bump version to $NEW_VERSION"
-          git push origin ${{ env.PR_HEAD_BRANCH_NAME }}
