@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/daudzubaidi/try-release-please2/compare/v1.0.0...v1.0.1) (2024-03-30)
+
+
+### Bug Fixes
+
+* node prerelease ([48f4b98](https://github.com/daudzubaidi/try-release-please2/commit/48f4b98ab9d2ae45abc0128fd9eaa43d06b95d82))
+* try--update ([48b5df1](https://github.com/daudzubaidi/try-release-please2/commit/48b5df14b2c2605e3ed1fa0c3b26f89c9cc8c50e))
+
 ## 1.0.0 (2024-03-30)
 
 
