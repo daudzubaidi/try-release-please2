@@ -5,15 +5,15 @@ on:
             - main
 jobs:
     release:
-        name: Release
         runs-on: ubuntu-latest
         steps:
-          - name: Checkout Repository
-            uses: actions/checkout@v2
-          - name: Release Please
-            id: release
-            uses: google-github-actions/release-please-action@v2
-            with:
-                token: ${{ secrets.RELEASE_PLEASE_TOKEN2 }}
+            - name: Checkout Repository
+              uses: actions/checkout@v2
+            - name: Release Please
+              id: release
+              uses: google-github-actions/release-please-action@v2
+              with:
+                token: ${{ secrets.GITHUB_TOKEN }}
                 release-type: node
                 package-name: ""
+                prerelease: true
