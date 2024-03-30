@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/daudzubaidi/try-release-please2/compare/v1.0.1...v1.0.2) (2024-03-30)
+
+
+### Bug Fixes
+
+* prerelease true ([5737add](https://github.com/daudzubaidi/try-release-please2/commit/5737add32242e1103cb4db5efb13d2b67c2c8f56))
+
 ## [1.0.1](https://github.com/daudzubaidi/try-release-please2/compare/v1.0.0...v1.0.1) (2024-03-30)
 
 
