@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.0.3](https://www.github.com/daudzubaidi/try-release-please2/compare/v1.0.2...v1.0.3) (2024-03-30)
+
+
+### Bug Fixes
+
+* update main.yml ([e25dbc7](https://www.github.com/daudzubaidi/try-release-please2/commit/e25dbc746cf536b83463d43bb56effa3d9705993))
+* update main.yml ([593441a](https://www.github.com/daudzubaidi/try-release-please2/commit/593441aeb3fe585ae5ddb201df4e3bbdf06700c0))
+
 ### [1.0.2](https://www.github.com/daudzubaidi/try-release-please2/compare/v1.0.1...v1.0.2) (2024-03-30)
 
 
