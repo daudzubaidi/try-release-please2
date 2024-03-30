@@ -13,7 +13,7 @@ jobs:
               id: release
               uses: google-github-actions/release-please-action@v2
               with:
-                token: ${{ secrets.GITHUB_TOKEN }}
+                token: ${{ secrets.RELEASE_PLEASE_TOKEN2 }}
                 release-type: node
                 package-name: ""
                 prerelease: true
