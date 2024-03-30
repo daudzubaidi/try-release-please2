@@ -1,5 +1,16 @@
 # Changelog
 
+### [1.0.2](https://www.github.com/daudzubaidi/try-release-please2/compare/v1.0.1...v1.0.2) (2024-03-30)
+
+
+### Bug Fixes
+
+* add main.yml ([013a42f](https://www.github.com/daudzubaidi/try-release-please2/commit/013a42f02cf6141a5103d6e3e2c3a53f06c79490))
+* add main.yml ([656ef36](https://www.github.com/daudzubaidi/try-release-please2/commit/656ef36942cd7f00bb0ef998f1fa7622f71fd5ef))
+* prerelease true ([5737add](https://www.github.com/daudzubaidi/try-release-please2/commit/5737add32242e1103cb4db5efb13d2b67c2c8f56))
+* update main.yml ([23ea7fe](https://www.github.com/daudzubaidi/try-release-please2/commit/23ea7fec9bd1192dca3206cf891d028e4e01fb02))
+* update main.yml ([7f096ab](https://www.github.com/daudzubaidi/try-release-please2/commit/7f096aba1c3c2a9a5296a64b624fbfaa8a13da07))
+
 ## [1.0.1](https://github.com/daudzubaidi/try-release-please2/compare/v1.0.0...v1.0.1) (2024-03-30)
 
 
