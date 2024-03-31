@@ -1,23 +1,28 @@
+name: Release
+on:
+    push:
+        branches:
+            - main
 jobs:
     release:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout Repository
-                uses: actions/checkout@v2
+              uses: actions/checkout@v2
             - name: Release Please
-                id: release
-                uses: google-github-actions/release-please-action@v2
-                with:
+              id: release
+              uses: google-github-actions/release-please-action@v2
+              with:
                     token: ${{ secrets.GITHUB_TOKEN }}
                     release-type: node
                     package-name: ""
                     prerelease: true
             - name: Create GitHub Release
-                id: create_release
-                uses: actions/create-release@v1
-                env:
+              id: create_release
+              uses: actions/create-release@v1
+              env:
                     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                with:
+              with:
                     tag_name: ${{ steps.release.outputs.tag_name }}
                     release_name: Release ${{ steps.release.outputs.tag_name }}
                     draft: false
