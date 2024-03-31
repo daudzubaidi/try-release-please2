@@ -23,7 +23,6 @@ jobs:
          node-version: 20
      - run: npm install npm@latest -g
      - run: npm install
-     - run: npm run compile
      - name: push Deno release
        run: |
          git config user.name github-actions[bot]
