@@ -18,6 +18,19 @@ jobs:
                     package-name: ""
                     prerelease: true
 
+            - name: Get Data from PR Release Please
+              id: get-pr-data
+              run: |
+                PR_TITLE=${{ steps.release.outputs.pr }}
+                PR_HEAD_BRANCH_NAME=${{ steps.release.outputs }}
+                echo "PR_TITLE=$PR_TITLE" >> $GITHUB_ENV
+                echo "PR_HEAD_BRANCH_NAME=$PR_HEAD_BRANCH_NAME" >> $GITHUB_ENV
+                echo "$PR_HEAD_BRANCH_NAME"
+                echo "${{ toJson(steps.release) }}"
+                echo "${{ toJson(steps.release.outputs) }}"
+                OUTPUT=$(echo '${{ steps.release.outputs }}' | jq -r '.headBranchName')
+                echo "$OUTPUT"
+
             - name: Create GitHub Release
               id: create_release
               uses: actions/create-release@v1
