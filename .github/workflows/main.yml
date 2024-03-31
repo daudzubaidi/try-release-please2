@@ -27,3 +27,4 @@ jobs:
                     release_name: Release ${{ steps.release.outputs.version }}
                     draft: false
                     prerelease: true
+              if: steps.release.outputs.release_created == 'true'
