@@ -26,7 +26,9 @@ jobs:
                 echo "PR_TITLE=$PR_TITLE" >> $GITHUB_ENV
                 echo "PR_HEAD_BRANCH_NAME=$PR_HEAD_BRANCH_NAME" >> $GITHUB_ENV
                 echo "$PR_HEAD_BRANCH_NAME"
-                echo "${{ steps.release.outputs }}"
+                echo "${{ toJson(steps.release.outputs) }}"
+                OUTPUT=$(echo '${{ steps.release.outputs }}' | jq -r '.headBranchName')
+                echo "$OUTPUT"
 
             - name: Create GitHub Release
               id: create_release
