@@ -1,5 +1,26 @@
 # Changelog
 
+### [1.0.3](https://www.github.com/daudzubaidi/try-release-please2/compare/v1.0.2...v1.0.3) (2024-03-31)
+
+
+### Bug Fixes
+
+* update main.yml ([313b488](https://www.github.com/daudzubaidi/try-release-please2/commit/313b4880e19f5efb6d0138b8ec6367a8a123aa52))
+* update main.yml ([b00982f](https://www.github.com/daudzubaidi/try-release-please2/commit/b00982f61714d9711a1e14fb6b56bf2a4441fd1b))
+* update main.yml ([db093a2](https://www.github.com/daudzubaidi/try-release-please2/commit/db093a2823d00eef565d679ea04cf16e6cc82ecb))
+* update main.yml ([a5c8595](https://www.github.com/daudzubaidi/try-release-please2/commit/a5c859546ab35cff0d7fa4c8fda87215c8c1f05e))
+* update main.yml ([627e15c](https://www.github.com/daudzubaidi/try-release-please2/commit/627e15c2b320115adf37e17899907dbb602a5a4b))
+* update main.yml ([c55bfd6](https://www.github.com/daudzubaidi/try-release-please2/commit/c55bfd600a6730d036a8566de131c35abeb09f2f))
+* update main.yml ([66ea983](https://www.github.com/daudzubaidi/try-release-please2/commit/66ea98332ab2998c5eb8c86fd67eb6d7ef6ea2f5))
+* update main.yml ([992385d](https://www.github.com/daudzubaidi/try-release-please2/commit/992385d0a3849ae27e177fc311b7f0c10488e3a2))
+* update main.yml ([60d175d](https://www.github.com/daudzubaidi/try-release-please2/commit/60d175d703a308ab3129ee656efbbd4b39745163))
+* update main.yml ([ebfb336](https://www.github.com/daudzubaidi/try-release-please2/commit/ebfb3368a7da2fa129ca5579a01962d5b084fe7f))
+* update main.yml ([4ea3a3b](https://www.github.com/daudzubaidi/try-release-please2/commit/4ea3a3b1eab63e8c5b28cb142a26608cee69199b))
+* update main.yml ([9c10c74](https://www.github.com/daudzubaidi/try-release-please2/commit/9c10c7488b7e839d19907a900b51f26231992930))
+* update main.yml ([3be2a55](https://www.github.com/daudzubaidi/try-release-please2/commit/3be2a55d4f76d184f5b9ddd012e0184c7afce1d4))
+* update main.yml ([e25dbc7](https://www.github.com/daudzubaidi/try-release-please2/commit/e25dbc746cf536b83463d43bb56effa3d9705993))
+* update main.yml ([593441a](https://www.github.com/daudzubaidi/try-release-please2/commit/593441aeb3fe585ae5ddb201df4e3bbdf06700c0))
+
 ### [1.0.2](https://www.github.com/daudzubaidi/try-release-please2/compare/v1.0.1...v1.0.2) (2024-03-30)
 
 
