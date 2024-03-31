@@ -22,7 +22,7 @@ jobs:
               id: get-pr-data
               run: |
                 PR_TITLE=${{ steps.release.outputs.pr }}
-                PR_HEAD_BRANCH_NAME=${{ steps.release.outputs.headBranchName }}
+                PR_HEAD_BRANCH_NAME=${{ steps.release.outputs }}
                 echo "PR_TITLE=$PR_TITLE" >> $GITHUB_ENV
                 echo "PR_HEAD_BRANCH_NAME=$PR_HEAD_BRANCH_NAME" >> $GITHUB_ENV
 
