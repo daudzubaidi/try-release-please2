@@ -17,6 +17,15 @@ jobs:
                     release-type: node
                     package-name: ""
                     prerelease: true
+
+            - name: Get Data from PR Release Please
+              id: get-pr-data
+              run: |
+                PR_TITLE=$(echo '${{ steps.release.outputs }}' | jq -r '.title')
+                PR_HEAD_BRANCH_NAME=$(echo '${{ steps.release.outputs }}' | jq -r '.headBranchName')
+                echo "PR_TITLE=$PR_TITLE" >> $GITHUB_ENV
+                echo "PR_HEAD_BRANCH_NAME=$PR_HEAD_BRANCH_NAME" >> $GITHUB_ENV
+
             - name: Create GitHub Release
               id: create_release
               uses: actions/create-release@v1
