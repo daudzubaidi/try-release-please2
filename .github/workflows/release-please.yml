@@ -21,13 +21,11 @@ jobs:
      - uses: actions/setup-node@v1
        with:
          node-version: 20
-     - run: npm install npm@latest -g
-     - run: npm install
      - name: push Deno release
        run: |
          git config user.name github-actions[bot]
          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-         git remote add gh-token "https://${{ secrets.GITHUB_TOKEN}}@github.com/yargs/yargs.git"
+         git remote add gh-token "https://${{ secrets.RELEASE_PLEASE_TOKEN2}}@github.com/daudzubaidi/try-release-please.git"
          git checkout -b deno
          git add -f build
          git commit -a -m 'chore: ${{ steps.release.outputs.tag_name }} release'
