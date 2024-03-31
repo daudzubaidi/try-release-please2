@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/daudzubaidi/try-release-please2/compare/v1.0.7...v1.0.8) (2024-03-31)
+
+
+### Bug Fixes
+
+* update main.yml ([4a086d0](https://github.com/daudzubaidi/try-release-please2/commit/4a086d033fc917174c99864d90324903f1450003))
+
 ### [1.0.2](https://www.github.com/daudzubaidi/try-release-please2/compare/v1.0.1...v1.0.2) (2024-03-30)
 
 
